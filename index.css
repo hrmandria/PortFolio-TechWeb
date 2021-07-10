@@ -1,0 +1,95 @@
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(60%);
+      opacity:0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity:1;
+    }
+  }
+
+html{
+    height: 100%;
+    margin:0px;
+    /*background-color: black;*/
+    background: url("StarryNight.gif") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact{
+    color:white;
+    margin-left: auto;
+    font-size: 110%;
+}
+#text{
+    color:white;
+    font-size: 110%;
+}
+.nav-wrapper{
+    color:white;
+    margin-right: 5%;
+    margin-left:5%;
+}
+#header{
+    position:fixed;
+    opacity: 1;
+    top:0;
+    background-color: black;
+}
+#first{
+    width:90%;
+    margin-top: 11%;
+    margin-left: 6%;
+    margin-bottom: 18%;
+    padding-right: 40%;
+    box-sizing: border-box;
+    display: block;
+    float:none;
+    position: inherit;
+    z-index:auto;
+    bottom:0;
+    line-height: 140%;
+    
+    animation-duration: 2s; /* durée*/
+    animation-timing-function: ease-out; /* comportement de l'animation */
+    animation-delay: 0s; /* temps de commencement de l'animation */
+    animation-iteration-count: 1; /* combien de fois l'animation devra se produire */
+    animation-name: slideInFromBottom; /* nom de l'animation */
+}
+#name{
+    font-size:180%;
+    line-height:100%
+}
+#aboutme{
+    font-size: 300%;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    line-height: 125%;
+}
+#shorttext{
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 155%;
+    color:#A9A9A9;
+}
+#paragraph{
+    line-height: 140%;
+}
+#learnmore{
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    color:#ff748c;
+}
+#home{
+    color:#ff748c;
+}
+#image{
+    height:90%;
+    width:20%;
+    size: inherit;
+}
+div{
+    color:white;
+}
