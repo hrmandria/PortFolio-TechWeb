@@ -9,8 +9,7 @@
     }
   }
 
-
-  html{
+html{
     height: 100%;
     margin:0px;
     /*background-color: black;*/
@@ -18,11 +17,8 @@
     background-size: cover;
     background-attachment: fixed;
 }
-#contact{
-    color:white;
-    margin-left: auto;
-    font-size: 110%;
-}
+
+
 #text{
     color:white;
     font-size: 110%;
@@ -40,7 +36,7 @@
 }
 #first{
     width:90%;
-    margin-top: 8%;
+    margin-top: 11%;
     margin-left: 6%;
     margin-bottom: 18%;
     padding-right: 40%;
@@ -49,7 +45,7 @@
     float:none;
     position: inherit;
     z-index:auto;
-    bottom:0;
+    bottom:0%;
     line-height: 140%;
     
     animation-duration: 2s; /* durée*/
@@ -79,7 +75,7 @@
         max-width:400px;
     }
     #aboutme{
-        font-size: 2%;
+        font-size: 5%;
         font-weight: bolder;
         font-family: 'Roboto', sans-serif;
         line-height: 125%;
@@ -90,9 +86,35 @@
         top:0;
         background-color: black;
     }
+    #card {
+        height:100px;
+        width:237px
+    }
+    #title{
+        font-size: 20px;
+    }
+    .card-action{
+        visibility: hidden;
+    }
+    #txt{
+        box-sizing: border-box;
+        display: block;
+        float:none;
+        position: inherit;
+        z-index:auto;
+        line-height: 140%;
+        font-size: 5px;
+    }
+    #container{
+        width:4px;
+    }
+}
+#name{
+    font-size:180%;
+    line-height:100%
 }
 #aboutme{
-    font-size: 300%;
+    font-size: 200%;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
     line-height: 125%;
@@ -103,14 +125,31 @@
     line-height: 155%;
     color:#A9A9A9;
 }
-#about{
-    color:#ff748c;
+#paragraph{
+    line-height: 140%;
 }
-#letstalk{
+#learnmore{
     font-size: 120%;
     font-family: 'Roboto', sans-serif;
     color:#ff748c;
 }
+#text{
+    color:#ff748c;
+}
+.responsive-img{
+    width:30%;
+    height:40%;
+    max-width:400px;
+}
+#txt{
+    color:black;
+}
+#link{
+    color:#ff748c;
+    
+}
+
 div{
     color:white;
 }
+
