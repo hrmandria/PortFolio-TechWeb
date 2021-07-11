@@ -1,6 +1,6 @@
 @keyframes slideInFromBottom {
     0% {
-      transform: translateY(60%);
+      transform: translateY(45%);
       opacity:0;
     }
     100% {
@@ -12,17 +12,12 @@
 html{
     height: 100%;
     margin:0px;
-    /*background-color: black;*/
-    background: url("StarryNight.gif") no-repeat center center;
+    background: url("../media/StarryNight.gif") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-#contact{
-    color:white;
-    margin-left: auto;
-    font-size: 110%;
-}
+
 #text{
     color:white;
     font-size: 110%;
@@ -39,7 +34,7 @@ html{
     background-color: black;
 }
 #first{
-    width:90%;
+    width:70%;
     margin-top: 11%;
     margin-left: 6%;
     margin-bottom: 18%;
@@ -52,7 +47,7 @@ html{
     bottom:0%;
     line-height: 140%;
     
-    animation-duration: 2s; /* durée*/
+    animation-duration: 1s; /* durée*/
     animation-timing-function: ease-out; /* comportement de l'animation */
     animation-delay: 0s; /* temps de commencement de l'animation */
     animation-iteration-count: 1; /* combien de fois l'animation devra se produire */
@@ -60,7 +55,7 @@ html{
 }
 @media (max-width:480px){
     #first{
-        width:90%;
+        width:128%;
         margin-top: 5%;
         margin-left: 6%;
         margin-bottom: 18%;
@@ -90,6 +85,25 @@ html{
         top:0;
         background-color: black;
     }
+    #card {
+        height:100px;
+        width:237px
+    }
+    #title{
+        font-size: 20%;
+    }
+    #txt{
+        box-sizing: border-box;
+        display: block;
+        float:none;
+        position: inherit;
+        z-index:auto;
+        line-height: 140%;
+        font-size: 5px;
+    }
+    #link{
+        font-size:80%
+    }
 }
 #name{
     font-size:180%;
@@ -110,18 +124,22 @@ html{
 #paragraph{
     line-height: 140%;
 }
-#learnmore{
-    font-size: 120%;
-    font-family: 'Roboto', sans-serif;
-    color:#ff748c;
-}
-#home{
+#text{
     color:#ff748c;
 }
 .responsive-img{
     width:30%;
     height:40%;
     max-width:400px;
+}
+#txt{
+    color:black;
+}
+#link{
+    color:#ff748c; 
+}
+#menu{
+    font-weight: bolder;
 }
 div{
     color:white;

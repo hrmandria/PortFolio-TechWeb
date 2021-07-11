@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
-
-    <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="../techno.css" media="screen,projection"/>
-
+    <link type="text/css" rel="stylesheet" href="../styles/techno.css" media="screen,projection"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
     <meta charset="utf-8"/>
     <link rel="icon" href="../index.png" type="image/x-icon"/>
-
+    <title>Technologies</title>
     <script src="../js/anychart-core.min.js"></script>
     <script src="../js/anychart-pie.min.js"></script> 
-
   </head>
   <body>
 
@@ -31,9 +26,20 @@
             </div>
         </nav>
 
-
         <div class="container" id="first" >
+
+          <p id="shorttext">
+            This is a pie chart representing all the langages that I know.
+          </p>
+
             <div id="container"></div>
+
+            <p id="shorttext"><span>
+              <span><a href="index.html" id="menu">Go to home page.</a></span><br><br>
+              <span><a href="work.html" id="menu">IT Projects.</span><br><br>
+              <span><a href="about.html" id="menu">About Me.</span><br><br>
+              <span><a href="contact.html" id="menu">Ask me a question.</span><br>
+            </span></p>
         </div>
         
          <script>
@@ -73,5 +79,7 @@
         chart.sort("desc");
         });
     </script> 
+
+    
   </body>
 </html>

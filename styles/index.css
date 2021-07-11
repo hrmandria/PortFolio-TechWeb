@@ -12,8 +12,7 @@
 html{
     height: 100%;
     margin:0px;
-    /*background-color: black;*/
-    background: url("StarryNight.gif") no-repeat center center;
+    background: url("../media/StarryNight.gif") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -60,7 +59,7 @@ html{
 }
 @media (max-width:480px){
     #first{
-        width:90%;
+        width:128%;
         margin-top: 5%;
         margin-left: 6%;
         margin-bottom: 18%;
@@ -78,33 +77,17 @@ html{
         height:40%;
         max-width:400px;
     }
+    #aboutme{
+        font-size: 5%;
+        font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
+        line-height: 125%;
+    }
     #header{
         position:fixed;
         opacity: 0;
         top:0;
         background-color: black;
-    }
-    #card {
-        height:100px;
-        width:237px
-    }
-    #title{
-        font-size: 20px;
-    }
-    .card-action{
-        visibility: hidden;
-    }
-    #txt{
-        box-sizing: border-box;
-        display: block;
-        float:none;
-        position: inherit;
-        z-index:auto;
-        line-height: 140%;
-        font-size: 5px;
-    }
-    #container{
-        width:4px;
     }
 }
 #name{
@@ -112,7 +95,7 @@ html{
     line-height:100%
 }
 #aboutme{
-    font-size: 200%;
+    font-size: 300%;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
     line-height: 125%;
@@ -131,7 +114,7 @@ html{
     font-family: 'Roboto', sans-serif;
     color:#ff748c;
 }
-#work{
+#home{
     color:#ff748c;
 }
 .responsive-img{
@@ -139,19 +122,8 @@ html{
     height:40%;
     max-width:400px;
 }
-#txt{
-    color:black;
-}
-#pic{
-    width:100%;
-    height:100%
-}
-#link{
-    color:#ff748c;
+#menu{
     font-weight: bolder;
-}
-#here {
-    color:#ff748c;
 }
 div{
     color:white;
